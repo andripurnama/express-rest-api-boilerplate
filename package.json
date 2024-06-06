@@ -7,25 +7,46 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "express js",
     "rest api",
     "api",
     "postgres",
-    "tyeporm"
+    "tyeporm",
+    "node",
+    "node.js",
+    "boilerplate",
+    "express",
+    "sequelize",
+    "joi",
+    "eslint",
+    "prettier",
+    "es9"
   ],
   "author": "Andri Purnama",
   "license": "MIT",
-  "description": "A REST API project using expressjs framework",
+  "description": "A boilerplate REST API project with authentication and authorization",
   "dependencies": {
     "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
     "cookie-parser": "^1.4.6",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "http-status": "^1.7.4",
+    "nodemailer": "^6.9.13",
     "pg": "^8.11.5",
-    "pg-hstore": "^2.3.4"
+    "pg-hstore": "^2.3.4",
+    "winston": "^3.13.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/node": "^7.24.7",
+    "@babel/plugin-transform-class-properties": "^7.24.7",
+    "@babel/plugin-transform-object-rest-spread": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "eslint": "^9.4.0",
     "nodemon": "^3.1.1",
-    "sequelize": "^6.37.3"
+    "prettier": "^3.3.1",
+    "rimraf": "^5.0.7",
+    "sequelize-cli": "^6.6.2"
   }
 }
