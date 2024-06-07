@@ -1,6 +1,6 @@
 # ExpressJS REST API
 
-A Typical REST API boilerplace that you can use for simple REST API without waste your time to install everything you need from scratch.
+A Typical REST API project boilerplate that use ES6 standard module.
 
 ## Requirements
 
