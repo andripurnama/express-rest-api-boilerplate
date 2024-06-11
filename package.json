@@ -35,7 +35,7 @@
   ],
   "author": "Andri Purnama",
   "license": "MIT",
-  "description": "A boilerplate REST API project with authentication and authorization",
+  "description": "An NodeJs Express boilerplate for REST API project",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "body-parser": "^1.20.2",
